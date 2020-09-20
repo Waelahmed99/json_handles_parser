@@ -1,0 +1,3 @@
+/home/wael/CLionProjects/codeforces_handles/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wael/CLionProjects/codeforces_handles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wael/CLionProjects/codeforces_handles/cmake-build-debug/CMakeFiles/codeforces_handles.dir
