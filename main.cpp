@@ -22,6 +22,11 @@ int main() {
     vector<string> names = readData(NAMES);
     vector<string> handles = readData(HANDLES);
 
+    if (names.empty() || handles.empty())
+        return cout << "No input data!", 0;
+    if (names.size() != handles.size())
+        return cout << "Handles and names lengths do NOT match!", 0;
+
     string json = "[\n";
     for (int i = 0; i < min(names.size(), handles.size()); i++)
         json += "\t{\n\t\"name\": \"" + names[i] + "\",\n" + "\t\"handle\": \"" + handles[i] + "\"\n\t},\n";
